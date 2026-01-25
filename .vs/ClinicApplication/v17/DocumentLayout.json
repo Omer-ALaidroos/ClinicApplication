@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\Dot Net Projects\\ClinicApplication\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0D378C49-A6D1-4702-B5C2-3F5CB5AB1F2D}|ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.infrastucture\\data\\clinicappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D378C49-A6D1-4702-B5C2-3F5CB5AB1F2D}|ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj|solutionrelative:clinicapp.infrastucture\\data\\clinicappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D378C49-A6D1-4702-B5C2-3F5CB5AB1F2D}|ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.infrastucture\\clinicapp.infrastucture.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0D378C49-A6D1-4702-B5C2-3F5CB5AB1F2D}|ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj|solutionrelative:clinicapp.infrastucture\\clinicapp.infrastucture.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|solutionrelative:clinicapp.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,6 +39,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ClinicAppContext.cs",
+              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\Data\\ClinicAppContext.cs",
+              "RelativeDocumentMoniker": "ClinicApp.Infrastucture\\Data\\ClinicAppContext.cs",
+              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\Data\\ClinicAppContext.cs",
+              "RelativeToolTip": "ClinicApp.Infrastucture\\Data\\ClinicAppContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T15:46:27.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\appsettings.json",
+              "RelativeDocumentMoniker": "ClinicApp.Host\\appsettings.json",
+              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\appsettings.json",
+              "RelativeToolTip": "ClinicApp.Host\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-25T15:38:18.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClinicApp.Infrastucture",
+              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj",
+              "RelativeDocumentMoniker": "ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj",
+              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj",
+              "RelativeToolTip": "ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-25T15:32:24.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Class1.cs",
               "RelativeDocumentMoniker": "ClinicApp.Application\\Class1.cs",
@@ -39,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Domain\\Class1.cs",
               "RelativeDocumentMoniker": "ClinicApp.Domain\\Class1.cs",
@@ -52,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\Class1.cs",
               "RelativeDocumentMoniker": "ClinicApp.Infrastucture\\Class1.cs",

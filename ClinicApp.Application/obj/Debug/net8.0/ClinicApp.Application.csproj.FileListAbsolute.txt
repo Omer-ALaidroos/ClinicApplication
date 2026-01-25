@@ -1,0 +1,11 @@
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Application\bin\Debug\net8.0\ClinicApp.Application.deps.json
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Application\bin\Debug\net8.0\ClinicApp.Application.dll
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Application\bin\Debug\net8.0\ClinicApp.Application.pdb
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Application\obj\Debug\net8.0\ClinicApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Application\obj\Debug\net8.0\ClinicApp.Application.AssemblyInfoInputs.cache
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Application\obj\Debug\net8.0\ClinicApp.Application.AssemblyInfo.cs
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Application\obj\Debug\net8.0\ClinicApp.Application.csproj.CoreCompileInputs.cache
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Application\obj\Debug\net8.0\ClinicApp.Application.dll
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Application\obj\Debug\net8.0\refint\ClinicApp.Application.dll
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Application\obj\Debug\net8.0\ClinicApp.Application.pdb
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Application\obj\Debug\net8.0\ref\ClinicApp.Application.dll

@@ -1,0 +1,11 @@
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Domain\bin\Debug\net8.0\ClinicApp.Domain.deps.json
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Domain\bin\Debug\net8.0\ClinicApp.Domain.dll
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Domain\bin\Debug\net8.0\ClinicApp.Domain.pdb
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Domain\obj\Debug\net8.0\ClinicApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Domain\obj\Debug\net8.0\ClinicApp.Domain.AssemblyInfoInputs.cache
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Domain\obj\Debug\net8.0\ClinicApp.Domain.AssemblyInfo.cs
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Domain\obj\Debug\net8.0\ClinicApp.Domain.csproj.CoreCompileInputs.cache
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Domain\obj\Debug\net8.0\ClinicApp.Domain.dll
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Domain\obj\Debug\net8.0\refint\ClinicApp.Domain.dll
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Domain\obj\Debug\net8.0\ClinicApp.Domain.pdb
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Domain\obj\Debug\net8.0\ref\ClinicApp.Domain.dll
