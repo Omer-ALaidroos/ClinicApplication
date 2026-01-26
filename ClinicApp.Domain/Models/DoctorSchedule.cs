@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ClinicApp.Infrastucture.Models;
+namespace ClinicApp.Domain.Models;
 
 public partial class DoctorSchedule
 {
