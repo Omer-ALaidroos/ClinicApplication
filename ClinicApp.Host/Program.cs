@@ -1,10 +1,22 @@
+using ClinicApp.Application.Common;
+using ClinicApp.Application.Interfaces;
+using ClinicApp.Application.Services;
+using ClinicApp.Infrastucture.Data;
+using ClinicApp.Infrastucture.DependencyInjection;
+using ClinicApp.Infrastucture.Repositories;
+using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.Design;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
+
+builder.Services.AddInfrastructureServices(builder.Configuration);
+
+builder.Services.AddApplicationService();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

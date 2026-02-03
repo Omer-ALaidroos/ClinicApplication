@@ -15,3 +15,5 @@ D:\Dot Net Projects\ClinicApplication\ClinicApp.Infrastucture\obj\Debug\net8.0\r
 D:\Dot Net Projects\ClinicApplication\ClinicApp.Infrastucture\bin\Debug\net8.0\ClinicApp.Domain.dll
 D:\Dot Net Projects\ClinicApplication\ClinicApp.Infrastucture\bin\Debug\net8.0\ClinicApp.Domain.pdb
 D:\Dot Net Projects\ClinicApplication\ClinicApp.Infrastucture\obj\Debug\net8.0\ClinicAp.CCC481EF.Up2Date
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Infrastucture\bin\Debug\net8.0\ClinicApp.Application.dll
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Infrastucture\bin\Debug\net8.0\ClinicApp.Application.pdb
