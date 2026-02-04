@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClinicApp.Infrastucture.DependencyInjection
+namespace ClinicApp.Application.DependencyInjection
 {
     public static class ServiceContainer
     {
@@ -17,6 +17,8 @@ namespace ClinicApp.Infrastucture.DependencyInjection
             services.AddScoped<IAppointmentService, AppointmentService>();
             services.AddScoped<IPatientService, PatientService>();
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<ISpecialtyService, SpecialtyService>();
+            services.AddScoped<IDoctorService, DoctorService>();
 
             // Register AutoMapper
             services.AddAutoMapper(typeof(MappingProfile).Assembly);

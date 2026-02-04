@@ -1,4 +1,5 @@
 ﻿using ClinicApp.Application.Interfaces;
+using ClinicApp.Domain.Interfaces;
 using ClinicApp.Infrastucture.Data;
 using ClinicApp.Infrastucture.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -23,7 +24,8 @@ namespace ClinicApp.Infrastucture.DependencyInjection
             services.AddScoped<IAppointmentRepository, AppointmentRepository>();
             services.AddScoped<IPatientRepository, PatientRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
-
+            services.AddScoped<ISpecialtyRepository, SpecialtyRepository>();
+            services.AddScoped<IDoctorRepository, DoctorRepository>();
 
 
             return services;

@@ -1,7 +1,9 @@
 using AutoMapper;
 using ClinicApp.Application.DTOs.Patient;
 using ClinicApp.Application.DTOs.User;
+using ClinicApp.Application.DTOs.Specialty;
 using ClinicApp.Domain.Models;
+using ClinicApp.Application.DTOs.Doctor;
 
 namespace ClinicApp.Application.Common
 {
@@ -30,6 +32,23 @@ namespace ClinicApp.Application.Common
             CreateMap<User, GetUserDto>();
             CreateMap<CreateUserDto, User>();
             CreateMap<UpdateUserDto, User>();
+
+            // Specialty mappings
+            CreateMap<Specialty, GetSpecialtyDto>();
+            CreateMap<CreateSpecialtyDto, Specialty>();
+            CreateMap<UpdateSpecialtyDto, Specialty>();
+
+            // Doctor mappings
+            CreateMap<CreateDoctorDto, Doctor>();
+            CreateMap<UpdateDoctorDto, Doctor>();
+            CreateMap<Doctor, GetDoctorDto>()
+                .ForMember(d => d.DoctorId, opt => opt.MapFrom(s => s.DoctorId))
+                 .ForMember(d => d.UserId, opt => opt.MapFrom(s => s.UserId))
+                .ForMember(d => d.FullName, opt => opt.MapFrom(s => s.User != null ? s.User.FullName : string.Empty))
+                .ForMember(d => d.Email, opt => opt.MapFrom(s => s.User != null ? s.User.Email : string.Empty))
+                .ForMember(d => d.Phone, opt => opt.MapFrom(s => s.User != null ? s.User.Phone ?? string.Empty : string.Empty))
+                .ForMember(d => d.IsActive, opt => opt.MapFrom(s => s.User != null && s.User.IsActive))
+                .ForMember(d => d.SpecialtyName, opt => opt.MapFrom(s => s.Specialty != null ? s.Specialty.SpecialtyName : string.Empty));
         }
     }
 }

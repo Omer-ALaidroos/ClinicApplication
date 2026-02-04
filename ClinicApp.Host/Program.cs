@@ -1,11 +1,5 @@
-using ClinicApp.Application.Common;
-using ClinicApp.Application.Interfaces;
-using ClinicApp.Application.Services;
-using ClinicApp.Infrastucture.Data;
+using ClinicApp.Application.DependencyInjection;
 using ClinicApp.Infrastucture.DependencyInjection;
-using ClinicApp.Infrastucture.Repositories;
-using Microsoft.EntityFrameworkCore;
-using System.ComponentModel.Design;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
