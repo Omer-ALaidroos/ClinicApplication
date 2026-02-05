@@ -87,3 +87,6 @@ D:\Dot Net Projects\ClinicApplication\ClinicApp.Host\obj\Debug\net8.0\refint\Cli
 D:\Dot Net Projects\ClinicApplication\ClinicApp.Host\obj\Debug\net8.0\ClinicApp.Host.pdb
 D:\Dot Net Projects\ClinicApplication\ClinicApp.Host\obj\Debug\net8.0\ClinicApp.Host.genruntimeconfig.cache
 D:\Dot Net Projects\ClinicApplication\ClinicApp.Host\obj\Debug\net8.0\ref\ClinicApp.Host.dll
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Host\bin\Debug\net8.0\FluentValidation.dll
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Host\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Host\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

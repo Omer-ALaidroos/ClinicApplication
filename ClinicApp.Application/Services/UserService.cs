@@ -2,7 +2,9 @@ using AutoMapper;
 using ClinicApp.Application.DTOs;
 using ClinicApp.Application.DTOs.User;
 using ClinicApp.Application.Interfaces;
+using ClinicApp.Application.Validation.Authentication;
 using ClinicApp.Domain.Models;
+using FluentValidation;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -12,10 +14,14 @@ using System.Threading.Tasks;
 namespace ClinicApp.Application.Services
 {
     public class UserService(IUserRepository userRepository,
-        IMapper mapper, ILogger<UserService> logger) : IUserService
+        IMapper mapper, ILogger<UserService> logger,
+         IValidator<CreateUserDto> createUserValidator, IValidationsService validationsService,
+          IValidator<UpdateUserDto> updateUserValidator) : IUserService
     {
         public async Task<ServiceResponse<GetUserDto>> GetUserByIdAsync(int id)
         {
+            
+
             try
             {
                 var user = await userRepository.GetByIdAsync(id);
@@ -66,6 +72,8 @@ namespace ClinicApp.Application.Services
 
         public async Task<ServiceResponse> CreateUserAsync(CreateUserDto userDto)
         {
+            var validationResult = await validationsService.ValidateAsync(userDto, createUserValidator);
+            if (!validationResult.Success) return validationResult;
             try
             {
                 var existingUser = await userRepository.GetByEmailAsync(userDto.Email);
@@ -97,6 +105,8 @@ namespace ClinicApp.Application.Services
 
         public async Task<ServiceResponse> UpdateUserAsync(int id, UpdateUserDto userDto)
         {
+            var validationResult = await validationsService.ValidateAsync(userDto, updateUserValidator);
+            if (!validationResult.Success) return validationResult;
             try
             {
                 var user = await userRepository.GetByIdAsync(id);

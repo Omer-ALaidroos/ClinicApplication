@@ -1,9 +1,12 @@
 using AutoMapper;
 using ClinicApp.Application.DTOs;
 using ClinicApp.Application.DTOs.Doctor;
+using ClinicApp.Application.DTOs.Patient;
 using ClinicApp.Application.Interfaces;
+using ClinicApp.Application.Validation.Authentication;
 using ClinicApp.Domain.Interfaces;
 using ClinicApp.Domain.Models;
+using FluentValidation;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -13,7 +16,8 @@ namespace ClinicApp.Application.Services
 {
     public class DoctorService(IDoctorRepository doctorRepository, 
         IUserRepository userRepository, IMapper mapper,
-        ILogger<DoctorService> logger) : IDoctorService
+        ILogger<DoctorService> logger, IValidator<CreateDoctorDto> createDoctorValidator,
+        IValidationsService validationsService) : IDoctorService
     {
         public async Task<ServiceResponse<GetDoctorDto>> GetDoctorByIdAsync(int id)
         {
@@ -51,6 +55,8 @@ namespace ClinicApp.Application.Services
 
         public async Task<ServiceResponse> CreateDoctorAsync(CreateDoctorDto doctorDto)
         {
+            var validationResult = await validationsService.ValidateAsync<CreateDoctorDto>(doctorDto, createDoctorValidator);
+            if (!validationResult.Success) return validationResult;
             try
             {
                 var existingUser = await userRepository.GetByEmailAsync(doctorDto.Email);

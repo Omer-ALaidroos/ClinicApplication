@@ -1,8 +1,12 @@
 using AutoMapper;
 using ClinicApp.Application.DTOs;
 using ClinicApp.Application.DTOs.Patient;
+using ClinicApp.Application.DTOs.User;
 using ClinicApp.Application.Interfaces;
+using ClinicApp.Application.Validation.Authentication;
+using ClinicApp.Application.Validation.Patient;
 using ClinicApp.Domain.Models;
+using FluentValidation;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -11,7 +15,9 @@ using System.Threading.Tasks;
 namespace ClinicApp.Application.Services
 {
     public class PatientService(IPatientRepository patientRepository,
-        IUserRepository userRepository, IMapper mapper, ILogger<PatientService> logger) : IPatientService
+        IUserRepository userRepository, IMapper mapper,
+        ILogger<PatientService> logger, IValidator<CreatePatientDto> createPatientValidator, 
+        IValidationsService validationsService) : IPatientService
     {
         public async Task<ServiceResponse<GetPatientDto>> GetPatientByIdAsync(int id)
         {
@@ -49,6 +55,8 @@ namespace ClinicApp.Application.Services
 
         public async Task<ServiceResponse> CreatePatientAsync(CreatePatientDto patientDto)
         {
+            var validationResult = await validationsService.ValidateAsync<CreatePatientDto>(patientDto, createPatientValidator);
+            if (!validationResult.Success) return validationResult;
             try
             {
                 // Check if a user with the same email already exists
