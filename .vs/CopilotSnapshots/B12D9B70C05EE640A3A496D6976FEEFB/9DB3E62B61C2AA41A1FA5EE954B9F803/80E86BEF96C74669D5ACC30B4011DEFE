@@ -1,0 +1,65 @@
+﻿using ClinicApp.Domain.Interfaces;
+using ClinicApp.Domain.Models;
+using ClinicApp.Infrastucture.Data;
+using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace ClinicApp.Infrastucture.Repositories
+{
+    public class DoctorScheduleRepository(ClinicAppContext context) : IDoctorScheduleRepository
+    {
+        public async Task<DoctorSchedule?> GetByIdAsync(int id)
+        {
+            return await context.DoctorSchedules
+                .AsNoTracking()
+                .Include(ds => ds.Doctor)
+                .FirstOrDefaultAsync(ds => ds.Id == id);
+        }
+
+        public async Task<IEnumerable<DoctorSchedule>> GetAllAsync()
+        {
+            return await context.DoctorSchedules
+                .AsNoTracking()
+                .Include(ds => ds.Doctor)
+                .ToListAsync();
+        }
+
+        public async Task<IEnumerable<DoctorSchedule>> GetSchedulesForDoctorAsync(int doctorId)
+        {
+            return await context.DoctorSchedules
+                .AsNoTracking()
+                .Where(ds => ds.DoctorId == doctorId)
+                .Include(ds => ds.Doctor)
+                .ToListAsync();
+        }
+
+        public async Task<bool> IsDayReversedrActiveAsync(int doctorId, byte dayOfWeek)
+        {
+            return await context.DoctorSchedules
+                .AsNoTracking()
+                .AnyAsync(ds => ds.DoctorId == doctorId && ds.DayOfWeek == dayOfWeek && ds.IsActive);
+        }
+
+        public async Task AddAsync(DoctorSchedule schedule)
+        {
+            await context.DoctorSchedules.AddAsync(schedule);
+        }
+
+        public void Update(DoctorSchedule schedule)
+        {
+            context.DoctorSchedules.Update(schedule);
+        }
+
+        public void Delete(DoctorSchedule schedule)
+        {
+            context.DoctorSchedules.Remove(schedule);
+        }
+
+        public async Task<int> SaveChangesAsync()
+        {
+            return await context.SaveChangesAsync();
+        }
+    }
+}

@@ -1,0 +1,66 @@
+using ClinicApp.Application.DTOs.DoctorSchedule;
+using ClinicApp.Application.Interfaces;
+using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
+
+namespace ClinicApp.Host.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class DoctorSchedulesController(IDoctorScheduleService doctorScheduleService) : ControllerBase
+    {
+        [HttpGet("GetAll")]
+        public async Task<IActionResult> GetAllDoctorSchedules()
+        {
+            var response = await doctorScheduleService.GetAllDoctorSchedulesAsync();
+            if (!response.Success)
+            {
+                return BadRequest(response.Message);
+            }
+            return Ok(response.Data);
+        }
+
+        [HttpGet("GetById{id}")]
+        public async Task<IActionResult> GetDoctorScheduleById(int id)
+        {
+            var response = await doctorScheduleService.GetDoctorScheduleByIdAsync(id);
+            if (!response.Success)
+            {
+                return NotFound(response.Message);
+            }
+            return Ok(response.Data);
+        }
+
+        [HttpGet("doctor/{doctorId}")]
+        public async Task<IActionResult> GetSchedulesForDoctor(int doctorId)
+        {
+            var response = await doctorScheduleService.GetSchedulesForDoctorAsync(doctorId);
+            if (!response.Success)
+            {
+                return NotFound(response.Message);
+            }
+            return Ok(response.Data);
+        }
+
+        [HttpPost("Create")]
+        public async Task<IActionResult> CreateDoctorSchedule([FromBody] CreateDoctorScheduleDto dto)
+        {
+            var response = await doctorScheduleService.CreateDoctorScheduleAsync(dto);
+            return response.Success ? Ok(response) : BadRequest(response);
+        }
+
+        [HttpPut("Update{id}")]
+        public async Task<IActionResult> UpdateDoctorSchedule(int id, [FromBody] UpdateDoctorScheduleDto dto)
+        {
+            var response = await doctorScheduleService.UpdateDoctorScheduleAsync(id, dto);
+            return response.Success ? Ok(response) : BadRequest(response);
+        }
+
+        [HttpDelete("Delete{id}")]
+        public async Task<IActionResult> DeleteDoctorSchedule(int id)
+        {
+            var response = await doctorScheduleService.DeleteDoctorScheduleAsync(id);
+            return response.Success ? Ok(response) : BadRequest(response);
+        }
+    }
+}

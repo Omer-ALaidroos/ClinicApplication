@@ -1,0 +1,18 @@
+using ClinicApp.Domain.Models;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace ClinicApp.Domain.Interfaces
+{
+    public interface IDoctorScheduleRepository
+    {
+        Task<DoctorSchedule?> GetByIdAsync(int id);
+        Task<IEnumerable<DoctorSchedule>> GetAllAsync();
+        Task<IEnumerable<DoctorSchedule>> GetSchedulesForDoctorAsync(int doctorId);
+        bool IsDayReversedrActiveAsync(int doctorId, byte dayOfWeek);
+        Task AddAsync(DoctorSchedule schedule);
+        void Update(DoctorSchedule schedule);
+        void Delete(DoctorSchedule schedule);
+        Task<int> SaveChangesAsync();
+    }
+}

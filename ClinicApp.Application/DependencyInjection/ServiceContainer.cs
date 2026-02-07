@@ -26,6 +26,7 @@ namespace ClinicApp.Application.DependencyInjection
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<ISpecialtyService, SpecialtyService>();
             services.AddScoped<IDoctorService, DoctorService>();
+            services.AddScoped<IDoctorScheduleService, DoctorScheduleService>();
 
 
             services.AddValidatorsFromAssemblyContaining<CreateUserValidator>();

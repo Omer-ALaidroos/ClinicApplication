@@ -26,6 +26,7 @@ namespace ClinicApp.Infrastucture.DependencyInjection
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<ISpecialtyRepository, SpecialtyRepository>();
             services.AddScoped<IDoctorRepository, DoctorRepository>();
+            services.AddScoped<IDoctorScheduleRepository, DoctorScheduleRepository>();
 
 
             return services;

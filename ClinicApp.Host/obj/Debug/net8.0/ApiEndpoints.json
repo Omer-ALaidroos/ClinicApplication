@@ -180,6 +180,101 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ClinicApp.Host.Controllers.DoctorSchedulesController",
+    "Method": "CreateDoctorSchedule",
+    "RelativePath": "api/DoctorSchedules/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ClinicApp.Application.DTOs.DoctorSchedule.CreateDoctorScheduleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClinicApp.Host.Controllers.DoctorSchedulesController",
+    "Method": "DeleteDoctorSchedule",
+    "RelativePath": "api/DoctorSchedules/Delete{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClinicApp.Host.Controllers.DoctorSchedulesController",
+    "Method": "GetSchedulesForDoctor",
+    "RelativePath": "api/DoctorSchedules/doctor/{doctorId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClinicApp.Host.Controllers.DoctorSchedulesController",
+    "Method": "GetAllDoctorSchedules",
+    "RelativePath": "api/DoctorSchedules/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClinicApp.Host.Controllers.DoctorSchedulesController",
+    "Method": "GetDoctorScheduleById",
+    "RelativePath": "api/DoctorSchedules/GetById{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClinicApp.Host.Controllers.DoctorSchedulesController",
+    "Method": "UpdateDoctorSchedule",
+    "RelativePath": "api/DoctorSchedules/Update{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "ClinicApp.Application.DTOs.DoctorSchedule.UpdateDoctorScheduleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ClinicApp.Host.Controllers.PatientsController",
     "Method": "CreatePatient",
     "RelativePath": "api/Patients/Create",

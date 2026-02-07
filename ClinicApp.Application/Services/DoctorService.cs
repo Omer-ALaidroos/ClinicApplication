@@ -110,11 +110,11 @@ namespace ClinicApp.Application.Services
                     return new ServiceResponse(false, "Associated user not found for doctor.");
                 }
 
-                var userWithEmail = await userRepository.GetByEmailAsync(doctorDto.Email);
+                /*var userWithEmail = await userRepository.GetByEmailAsync(doctorDto.Email);
                 if (userWithEmail != null && userWithEmail.Id != user.Id)
                 {
                     return new ServiceResponse(false, "Another user with this email already exists.");
-                }
+                }*/
 
                 mapper.Map(doctorDto, doctor);
                 

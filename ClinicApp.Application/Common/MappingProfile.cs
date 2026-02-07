@@ -4,6 +4,7 @@ using ClinicApp.Application.DTOs.User;
 using ClinicApp.Application.DTOs.Specialty;
 using ClinicApp.Domain.Models;
 using ClinicApp.Application.DTOs.Doctor;
+using ClinicApp.Application.DTOs.DoctorSchedule;
 
 namespace ClinicApp.Application.Common
 {
@@ -49,6 +50,17 @@ namespace ClinicApp.Application.Common
                 .ForMember(d => d.Phone, opt => opt.MapFrom(s => s.User != null ? s.User.Phone ?? string.Empty : string.Empty))
                 .ForMember(d => d.IsActive, opt => opt.MapFrom(s => s.User != null && s.User.IsActive))
                 .ForMember(d => d.SpecialtyName, opt => opt.MapFrom(s => s.Specialty != null ? s.Specialty.SpecialtyName : string.Empty));
+
+            // DoctorSchedule mappings
+            CreateMap<CreateDoctorScheduleDto, DoctorSchedule>();
+            CreateMap<UpdateDoctorScheduleDto, DoctorSchedule>();
+            CreateMap<DoctorSchedule, GetDoctorScheduleDto>()
+                .ForMember(d => d.Id, opt => opt.MapFrom(s => s.Id))
+                .ForMember(d => d.DoctorId, opt => opt.MapFrom(s => s.DoctorId))
+                .ForMember(d => d.DayOfWeek, opt => opt.MapFrom(s => s.DayOfWeek))
+                .ForMember(d => d.StartTime, opt => opt.MapFrom(s => s.StartTime))
+                .ForMember(d => d.EndTime, opt => opt.MapFrom(s => s.EndTime))
+                .ForMember(d => d.IsActive, opt => opt.MapFrom(s => s.IsActive));
         }
     }
 }
