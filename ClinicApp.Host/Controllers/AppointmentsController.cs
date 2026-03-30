@@ -15,7 +15,7 @@ namespace ClinicApp.Host.Controllers
             _appointmentService = appointmentService;
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("GetBy{id}")]
         public async Task<IActionResult> GetAppointmentById(int id)
         {
             var appointment = await _appointmentService.GetAppointmentByIdAsync(id);
@@ -26,21 +26,29 @@ namespace ClinicApp.Host.Controllers
             return Ok(appointment);
         }
 
-        [HttpGet("patient/{patientId}")]
+        [HttpGet("GetAppointmentBy/{patientId}")]
         public async Task<IActionResult> GetAppointmentsByPatientId(int patientId)
         {
             var appointments = await _appointmentService.GetAppointmentsByPatientIdAsync(patientId);
             return Ok(appointments);
         }
 
-        [HttpGet("doctor/{doctorId}")]
+        [HttpGet("GetAppointmentBydoctor/{doctorId}")]
         public async Task<IActionResult> GetAppointmentsByDoctorId(int doctorId)
         {
             var appointments = await _appointmentService.GetAppointmentsByDoctorIdAsync(doctorId);
             return Ok(appointments);
         }
 
-        [HttpPost]
+        [HttpGet("doctor/{doctorId}/available-weekly")]
+        public async Task<IActionResult> GetDoctorAvailableWeekly(int doctorId, [FromQuery] DateTime weekStart)
+        {
+            
+            var slots = await _appointmentService.GetDoctorAvailableSlotsWeeklyAsync(doctorId, weekStart);
+            return slots  != null ? Ok(slots)  : BadRequest();
+        }
+
+        [HttpPost("Create")]
         public async Task<IActionResult> CreateAppointment([FromBody] CreateAppointmentDto appointmentDto)
         {
             try
@@ -51,6 +59,10 @@ namespace ClinicApp.Host.Controllers
             catch (ArgumentException ex)
             {
                 return BadRequest(ex.Message);
+            }
+            catch (InvalidOperationException ex)
+            {
+                return Conflict(ex.Message);
             }
         }
 
@@ -79,7 +91,7 @@ namespace ClinicApp.Host.Controllers
             try
             {
                 await _appointmentService.CancelAppointmentAsync(id);
-                return NoContent();
+                return Ok();
             }
             catch (Exception ex)
             {

@@ -1,38 +1,6 @@
 [
   {
     "ContainingType": "ClinicApp.Host.Controllers.AppointmentsController",
-    "Method": "CreateAppointment",
-    "RelativePath": "api/Appointments",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "appointmentDto",
-        "Type": "ClinicApp.Application.DTOs.Appointment.CreateAppointmentDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ClinicApp.Host.Controllers.AppointmentsController",
-    "Method": "GetAppointmentById",
-    "RelativePath": "api/Appointments/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ClinicApp.Host.Controllers.AppointmentsController",
     "Method": "UpdateAppointment",
     "RelativePath": "api/Appointments/{id}",
     "HttpMethod": "PUT",
@@ -70,8 +38,61 @@
   },
   {
     "ContainingType": "ClinicApp.Host.Controllers.AppointmentsController",
+    "Method": "CreateAppointment",
+    "RelativePath": "api/Appointments/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "appointmentDto",
+        "Type": "ClinicApp.Application.DTOs.Appointment.CreateAppointmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClinicApp.Host.Controllers.AppointmentsController",
+    "Method": "GetDoctorAvailableWeekly",
+    "RelativePath": "api/Appointments/doctor/{doctorId}/available-weekly",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "weekStart",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClinicApp.Host.Controllers.AppointmentsController",
+    "Method": "GetAppointmentsByPatientId",
+    "RelativePath": "api/Appointments/GetAppointmentBy/{patientId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patientId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClinicApp.Host.Controllers.AppointmentsController",
     "Method": "GetAppointmentsByDoctorId",
-    "RelativePath": "api/Appointments/doctor/{doctorId}",
+    "RelativePath": "api/Appointments/GetAppointmentBydoctor/{doctorId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -86,14 +107,14 @@
   },
   {
     "ContainingType": "ClinicApp.Host.Controllers.AppointmentsController",
-    "Method": "GetAppointmentsByPatientId",
-    "RelativePath": "api/Appointments/patient/{patientId}",
+    "Method": "GetAppointmentById",
+    "RelativePath": "api/Appointments/GetBy{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "patientId",
+        "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
       }

@@ -1,0 +1,8 @@
+{
+  "ApplicationName": "ClinicApp",
+  "Version": "1.0.0",
+  "DefaultCulture": "en-US",
+  "ConnectionStrings": {
+    "ClinicAppContext": "Server=.;Database=ClinicDB;User Id=sa;Password=sa123456;Trusted_Connection=True;TrustServerCertificate=True"
+  }
+}

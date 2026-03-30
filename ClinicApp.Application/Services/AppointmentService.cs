@@ -1,57 +1,71 @@
 using ClinicApp.Application.DTOs.Appointment;
 using ClinicApp.Application.Interfaces;
 using ClinicApp.Domain.Models;
+using System;
+using System.Linq;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace ClinicApp.Application.Services
 {
-    public class AppointmentService : IAppointmentService
+    public class AppointmentService(IAppointmentRepository appointmentRepository) : IAppointmentService
     {
-        private readonly IAppointmentRepository _appointmentRepository;
-
-        public AppointmentService(IAppointmentRepository appointmentRepository)
-        {
-            _appointmentRepository = appointmentRepository;
-        }
-
         public async Task<GetAppointmentDto?> GetAppointmentByIdAsync(int id)
         {
-            var appointment = await _appointmentRepository.GetByIdAsync(id);
+            var appointment = await appointmentRepository.GetByIdAsync(id);
             if (appointment == null) return null;
             return MapToGetAppointmentDto(appointment);
         }
 
         public async Task<IEnumerable<GetAppointmentDto>> GetAppointmentsByPatientIdAsync(int patientId)
         {
-            var appointments = await _appointmentRepository.GetAppointmentsByPatientIdAsync(patientId);
+            var appointments = await appointmentRepository.GetAppointmentsByPatientIdAsync(patientId);
             return appointments.Select(MapToGetAppointmentDto);
         }
 
         public async Task<IEnumerable<GetAppointmentDto>> GetAppointmentsByDoctorIdAsync(int doctorId)
         {
-            var appointments = await _appointmentRepository.GetAppointmentsByDoctorIdAsync(doctorId);
+            var appointments = await appointmentRepository.GetAppointmentsByDoctorIdAsync(doctorId);
             return appointments.Select(MapToGetAppointmentDto);
         }
 
         public async Task<GetAppointmentDto> CreateAppointmentAsync(CreateAppointmentDto appointmentDto)
         {
+            // Check for overlapping appointments for the doctor on the same date as the requested start
+            var existingAppointments = await appointmentRepository.GetAppointmentsForDoctorByDateAsync(appointmentDto.DoctorId, appointmentDto.StartDateTime);
+
+            // Treat these statuses as blocking availability
+            var blockingStatuses = new[] { "Pending", "Scheduled", "Confirmed", "Rescheduled" };
+
+            bool hasConflict = existingAppointments.Any(a =>
+                blockingStatuses.Contains(a.Status) &&
+                appointmentDto.StartDateTime < a.EndDateTime &&
+                a.StartDateTime < appointmentDto.EndDateTime);
+
+            if (hasConflict)
+            {
+                throw new InvalidOperationException("The doctor already has an appointment during the requested time range.");
+            }
+
             // The constructor enforces invariants
             var appointment = new Appointment(
                 appointmentDto.DoctorId,
                 appointmentDto.PatientId,
                 appointmentDto.StartDateTime,
                 appointmentDto.EndDateTime,
-                appointmentDto.Notes
+                appointmentDto.Notes,
+                AppointmentStatus.Scheduled.ToString()
             );
 
-            var createdAppointment = await _appointmentRepository.AddAsync(appointment);
-            await _appointmentRepository.SaveChangesAsync();
+            var createdAppointment = await appointmentRepository.AddAsync(appointment);
+            await appointmentRepository.SaveChangesAsync();
 
             return MapToGetAppointmentDto(createdAppointment);
         }
 
         public async Task UpdateAppointmentAsync(int id, UpdateAppointmentDto appointmentDto)
         {
-            var appointment = await _appointmentRepository.GetByIdAsync(id);
+            var appointment = await appointmentRepository.GetByIdAsync(id);
             if (appointment == null) throw new Exception("Appointment not found");
 
             // Use the domain method to perform the update
@@ -60,20 +74,66 @@ namespace ClinicApp.Application.Services
             // If you wanted to update notes separately, you would have a method on the entity for that too.
             // For example: appointment.UpdateNotes(appointmentDto.Notes);
 
-            _appointmentRepository.Update(appointment);
-            await _appointmentRepository.SaveChangesAsync();
+            appointmentRepository.Update(appointment);
+            await appointmentRepository.SaveChangesAsync();
         }
 
         public async Task CancelAppointmentAsync(int id)
         {
-            var appointment = await _appointmentRepository.GetByIdAsync(id);
+            var appointment = await appointmentRepository.GetByIdAsync(id);
             if (appointment == null) throw new Exception("Appointment not found");
 
-            // Use the domain method to perform the cancellation
+            
             appointment.Cancel("Cancelled by user request."); 
 
-            _appointmentRepository.Update(appointment);
-            await _appointmentRepository.SaveChangesAsync();
+            appointmentRepository.Update(appointment);
+            await appointmentRepository.SaveChangesAsync();
+        }
+
+        public async Task ConfirmAppointmentAsync(int id)
+        {
+            var appointment = await appointmentRepository.GetByIdAsync(id);
+            if (appointment == null) throw new Exception("Appointment not found");
+
+            appointment.Confirm();
+            appointmentRepository.Update(appointment);
+            await appointmentRepository.SaveChangesAsync();
+        }
+
+        public async Task CompleteAppointmentAsync(int id)
+        {
+            var appointment = await appointmentRepository.GetByIdAsync(id);
+            if (appointment == null) throw new Exception("Appointment not found");
+
+            appointment.Complete();
+            appointmentRepository.Update(appointment);
+            await appointmentRepository.SaveChangesAsync();
+        }
+
+        public async Task MarkNoShowAsync(int id)
+        {
+            var appointment = await appointmentRepository.GetByIdAsync(id);
+            if (appointment == null) throw new Exception("Appointment not found");
+
+            // Only allowed when appointment time has passed
+            if (appointment.StartDateTime > DateTime.UtcNow)
+                throw new InvalidOperationException("Cannot mark as no-show before appointment start time.");
+
+            appointment.Cancel("Marked as no-show");
+            appointmentRepository.Update(appointment);
+            await appointmentRepository.SaveChangesAsync();
+        }
+
+       
+        public async Task<IEnumerable<GetAvailableSlotDto>> GetDoctorAvailableSlotsWeeklyAsync(int doctorId, DateTime weekStart)
+        {
+            var slots = await appointmentRepository.GetDoctorAvailableSlotsWeeklyAsync(doctorId, weekStart);
+            return slots.Select(s => new GetAvailableSlotDto
+            {
+                WorkDate = s.WorkDate,
+                AvailableFrom = s.AvailableFrom,
+                AvailableTo = s.AvailableTo
+            });
         }
 
         private GetAppointmentDto MapToGetAppointmentDto(Appointment appointment)

@@ -1,0 +1,15 @@
+2026-03-30 00:02:03.221 +03:00 [ERR] Application is Building ...
+2026-03-30 17:13:33.323 +03:00 [INF] Application is Building ...
+2026-03-30 17:13:35.497 +03:00 [INF] User profile is available. Using 'C:\Users\alsharga\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-30 17:13:36.071 +03:00 [INF] Now listening on: http://localhost:5212
+2026-03-30 17:13:36.264 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-30 17:13:36.294 +03:00 [INF] Hosting environment: Development
+2026-03-30 17:13:36.295 +03:00 [INF] Content root path: D:\Dot Net Projects\ClinicApplication\ClinicApp.Host
+2026-03-30 17:13:37.839 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/swagger/index.html - null null
+2026-03-30 17:13:39.781 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/swagger/index.html - 200 null text/html;charset=utf-8 2017.8909ms
+2026-03-30 17:13:39.926 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-30 17:13:40.223 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 296.8292ms
+2026-03-30 17:13:40.499 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/_vs/browserLink - null null
+2026-03-30 17:13:40.882 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/_vs/browserLink - 200 null text/javascript; charset=UTF-8 383.5494ms
+2026-03-30 17:13:41.374 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/swagger/v1/swagger.json - null null
+2026-03-30 17:13:41.607 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 233.2783ms

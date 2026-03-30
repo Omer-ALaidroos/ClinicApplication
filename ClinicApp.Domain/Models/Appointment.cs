@@ -35,7 +35,7 @@ public partial class Appointment
         Patient = null!;
     }
 
-    public Appointment(int doctorId, int patientId, DateTime startDateTime, DateTime endDateTime, string? notes)
+    public Appointment(int doctorId, int patientId, DateTime startDateTime, DateTime endDateTime, string? notes, string status)
     {
         if (startDateTime < DateTime.UtcNow)
             throw new ArgumentException("Appointment start date cannot be in the past.");
@@ -47,7 +47,7 @@ public partial class Appointment
         PatientId = patientId;
         StartDateTime = startDateTime;
         EndDateTime = endDateTime;
-        Status = "Scheduled"; // Default status
+        Status =status; // Default status
         Notes = notes;
         CreatedAt = DateTime.UtcNow;
     }

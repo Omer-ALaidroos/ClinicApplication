@@ -1,0 +1,127 @@
+﻿using ClinicApp.Application.DTOs.Appointment;
+using ClinicApp.Application.Interfaces;
+using ClinicApp.Domain.Models;
+
+namespace ClinicApp.Application.Services
+{
+    public class AppointmentService : IAppointmentService
+    {
+        private readonly IAppointmentRepository _appointmentRepository;
+
+        public AppointmentService(IAppointmentRepository appointmentRepository)
+        {
+            _appointmentRepository = appointmentRepository;
+        }
+
+        public async Task<GetAppointmentDto?> GetAppointmentByIdAsync(int id)
+        {
+            var appointment = await _appointmentRepository.GetByIdAsync(id);
+            if (appointment == null) return null;
+            return MapToGetAppointmentDto(appointment);
+        }
+
+        public async Task<IEnumerable<GetAppointmentDto>> GetAppointmentsByPatientIdAsync(int patientId)
+        {
+            var appointments = await _appointmentRepository.GetAppointmentsByPatientIdAsync(patientId);
+            return appointments.Select(MapToGetAppointmentDto);
+        }
+
+        public async Task<IEnumerable<GetAppointmentDto>> GetAppointmentsByDoctorIdAsync(int doctorId)
+        {
+            var appointments = await _appointmentRepository.GetAppointmentsByDoctorIdAsync(doctorId);
+            return appointments.Select(MapToGetAppointmentDto);
+        }
+
+        public async Task<GetAppointmentDto> CreateAppointmentAsync(CreateAppointmentDto appointmentDto)
+        {
+            // The constructor enforces invariants
+            var appointment = new Appointment(
+                appointmentDto.DoctorId,
+                appointmentDto.PatientId,
+                appointmentDto.StartDateTime,
+                appointmentDto.EndDateTime,
+                appointmentDto.Notes
+            );
+
+            var createdAppointment = await _appointmentRepository.AddAsync(appointment);
+            await _appointmentRepository.SaveChangesAsync();
+
+            return MapToGetAppointmentDto(createdAppointment);
+        }
+
+        public async Task UpdateAppointmentAsync(int id, UpdateAppointmentDto appointmentDto)
+        {
+            var appointment = await _appointmentRepository.GetByIdAsync(id);
+            if (appointment == null) throw new Exception("Appointment not found");
+
+            // Use the domain method to perform the update
+            appointment.Reschedule(appointmentDto.StartDateTime, appointmentDto.EndDateTime);
+            
+            // If you wanted to update notes separately, you would have a method on the entity for that too.
+            // For example: appointment.UpdateNotes(appointmentDto.Notes);
+
+            _appointmentRepository.Update(appointment);
+            await _appointmentRepository.SaveChangesAsync();
+        }
+
+        public async Task CancelAppointmentAsync(int id)
+        {
+            var appointment = await _appointmentRepository.GetByIdAsync(id);
+            if (appointment == null) throw new Exception("Appointment not found");
+
+            // Use the domain method to perform the cancellation
+            appointment.Cancel("Cancelled by user request."); 
+
+            _appointmentRepository.Update(appointment);
+            await _appointmentRepository.SaveChangesAsync();
+        }
+
+        public async Task ConfirmAppointmentAsync(int id)
+        {
+            var appointment = await _appointmentRepository.GetByIdAsync(id);
+            if (appointment == null) throw new Exception("Appointment not found");
+
+            appointment.Confirm();
+            _appointmentRepository.Update(appointment);
+            await _appointmentRepository.SaveChangesAsync();
+        }
+
+        public async Task CompleteAppointmentAsync(int id)
+        {
+            var appointment = await _appointmentRepository.GetByIdAsync(id);
+            if (appointment == null) throw new Exception("Appointment not found");
+
+            appointment.Complete();
+            _appointmentRepository.Update(appointment);
+            await _appointmentRepository.SaveChangesAsync();
+        }
+
+        public async Task MarkNoShowAsync(int id)
+        {
+            var appointment = await _appointmentRepository.GetByIdAsync(id);
+            if (appointment == null) throw new Exception("Appointment not found");
+
+            // Only allowed when appointment time has passed
+            if (appointment.StartDateTime > DateTime.UtcNow)
+                throw new InvalidOperationException("Cannot mark as no-show before appointment start time.");
+
+            appointment.Cancel("Marked as no-show");
+            _appointmentRepository.Update(appointment);
+            await _appointmentRepository.SaveChangesAsync();
+        }
+
+        private GetAppointmentDto MapToGetAppointmentDto(Appointment appointment)
+        {
+            return new GetAppointmentDto
+            {
+                Id = appointment.Id,
+                DoctorId = appointment.DoctorId,
+                PatientId = appointment.PatientId,
+                StartDateTime = appointment.StartDateTime,
+                EndDateTime = appointment.EndDateTime,
+                Status = Enum.Parse<AppointmentStatus>(appointment.Status),
+                Notes = appointment.Notes
+            };
+        }
+    }
+}

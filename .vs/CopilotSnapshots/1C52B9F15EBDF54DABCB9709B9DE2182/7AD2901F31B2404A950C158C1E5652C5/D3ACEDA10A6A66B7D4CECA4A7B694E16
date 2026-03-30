@@ -1,0 +1,10 @@
+﻿namespace ClinicApp.Host.Middleware
+{
+    public class RequestLoggingMiddleware
+    {
+        public RequestLoggingMiddleware(RequestDelegate next,ILogger<>)
+        {
+            
+        }
+    }
+}

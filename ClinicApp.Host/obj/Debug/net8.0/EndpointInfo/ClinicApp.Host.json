@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Appointments/{id}": {
+    "/api/Appointments/GetBy{id}": {
       "get": {
         "tags": [
           "Appointments"
@@ -26,7 +26,117 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/Appointments/GetAppointmentBy/{patientId}": {
+      "get": {
+        "tags": [
+          "Appointments"
+        ],
+        "parameters": [
+          {
+            "name": "patientId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Appointments/GetAppointmentBydoctor/{doctorId}": {
+      "get": {
+        "tags": [
+          "Appointments"
+        ],
+        "parameters": [
+          {
+            "name": "doctorId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Appointments/doctor/{doctorId}/available-weekly": {
+      "get": {
+        "tags": [
+          "Appointments"
+        ],
+        "parameters": [
+          {
+            "name": "doctorId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "weekStart",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Appointments/Create": {
+      "post": {
+        "tags": [
+          "Appointments"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateAppointmentDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateAppointmentDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateAppointmentDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Appointments/{id}": {
       "put": {
         "tags": [
           "Appointments"
@@ -57,83 +167,6 @@
             "application/*+json": {
               "schema": {
                 "$ref": "#/components/schemas/UpdateAppointmentDto"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Appointments/patient/{patientId}": {
-      "get": {
-        "tags": [
-          "Appointments"
-        ],
-        "parameters": [
-          {
-            "name": "patientId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Appointments/doctor/{doctorId}": {
-      "get": {
-        "tags": [
-          "Appointments"
-        ],
-        "parameters": [
-          {
-            "name": "doctorId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Appointments": {
-      "post": {
-        "tags": [
-          "Appointments"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateAppointmentDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateAppointmentDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateAppointmentDto"
               }
             }
           }
@@ -865,7 +898,6 @@
           "Pending",
           "Scheduled",
           "Confirmed",
-          "InProgress",
           "Completed",
           "Cancelled",
           "NoShow",
@@ -874,9 +906,6 @@
         "type": "string"
       },
       "CreateAppointmentDto": {
-        "required": [
-          "status"
-        ],
         "type": "object",
         "properties": {
           "doctorId": {
@@ -894,9 +923,6 @@
           "endDateTime": {
             "type": "string",
             "format": "date-time"
-          },
-          "status": {
-            "$ref": "#/components/schemas/AppointmentStatus"
           },
           "notes": {
             "type": "string",

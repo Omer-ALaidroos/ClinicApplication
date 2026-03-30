@@ -1,0 +1,89 @@
+2026-03-29 23:48:59.416 +03:00 [INF] Application is Building ...
+2026-03-29 23:49:01.118 +03:00 [INF] Now listening on: http://localhost:5212
+2026-03-29 23:49:01.184 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-29 23:49:01.185 +03:00 [INF] Hosting environment: Development
+2026-03-29 23:49:01.186 +03:00 [INF] Content root path: D:\Dot Net Projects\ClinicApplication\ClinicApp.Host
+2026-03-29 23:49:01.937 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/swagger - null null
+2026-03-29 23:49:02.183 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/swagger - 301 0 null 267.7883ms
+2026-03-29 23:49:02.191 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/swagger/index.html - null null
+2026-03-29 23:49:02.350 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/swagger/index.html - 200 null text/html;charset=utf-8 159.0333ms
+2026-03-29 23:49:02.414 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/swagger/swagger-ui.css - null null
+2026-03-29 23:49:02.414 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/swagger/swagger-ui-bundle.js - null null
+2026-03-29 23:49:02.420 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-29 23:49:02.419 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/swagger/swagger-ui-standalone-preset.js - null null
+2026-03-29 23:49:02.431 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/_framework/aspnetcore-browser-refresh.js - 200 16512 application/javascript; charset=utf-8 10.9436ms
+2026-03-29 23:49:02.919 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-03-29 23:49:02.919 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-03-29 23:49:02.924 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 504.8318ms
+2026-03-29 23:49:02.926 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/swagger/swagger-ui.css - 200 152034 text/css 512.0296ms
+2026-03-29 23:49:02.945 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/_vs/browserLink - null null
+2026-03-29 23:49:02.960 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-03-29 23:49:02.963 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 549.2008ms
+2026-03-29 23:49:03.001 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.5243ms
+2026-03-29 23:49:03.210 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/swagger/v1/swagger.json - null null
+2026-03-29 23:49:03.245 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 35.2513ms
+2026-03-29 23:49:49.821 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/api/Users/GetAll?role=Admin - null null
+2026-03-29 23:49:49.855 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-03-29 23:49:49.860 +03:00 [INF] Handling request: GET /api/Users/GetAll
+2026-03-29 23:49:49.865 +03:00 [INF] Executing endpoint 'ClinicApp.Host.Controllers.UsersController.GetAllUsers (ClinicApp.Host)'
+2026-03-29 23:49:49.903 +03:00 [INF] Route matched with {action = "GetAllUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers(System.String) on controller ClinicApp.Host.Controllers.UsersController (ClinicApp.Host).
+2026-03-29 23:49:52.218 +03:00 [INF] Executed DbCommand (51ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FullName], [u].[IsActive], [u].[PasswordHash], [u].[Phone], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+2026-03-29 23:49:52.346 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ClinicApp.Application.DTOs.User.GetUserDto, ClinicApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-29 23:49:52.361 +03:00 [INF] Executed action ClinicApp.Host.Controllers.UsersController.GetAllUsers (ClinicApp.Host) in 2449.4047ms
+2026-03-29 23:49:52.364 +03:00 [INF] Executed endpoint 'ClinicApp.Host.Controllers.UsersController.GetAllUsers (ClinicApp.Host)'
+2026-03-29 23:49:52.366 +03:00 [INF] Finished handling request. Time taken: 2506ms
+2026-03-29 23:49:52.377 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/api/Users/GetAll?role=Admin - 200 null application/json; charset=utf-8 2560.7486ms
+2026-03-29 23:51:16.491 +03:00 [INF] Application is Building ...
+2026-03-29 23:51:17.315 +03:00 [INF] Now listening on: http://localhost:5212
+2026-03-29 23:51:17.380 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-29 23:51:17.381 +03:00 [INF] Hosting environment: Development
+2026-03-29 23:51:17.382 +03:00 [INF] Content root path: D:\Dot Net Projects\ClinicApplication\ClinicApp.Host
+2026-03-29 23:51:18.338 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/swagger/index.html - null null
+2026-03-29 23:51:18.608 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/swagger/index.html - 200 null text/html;charset=utf-8 284.9997ms
+2026-03-29 23:51:18.651 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-29 23:51:18.664 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/_framework/aspnetcore-browser-refresh.js - 200 16512 application/javascript; charset=utf-8 13.547ms
+2026-03-29 23:51:18.696 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/_vs/browserLink - null null
+2026-03-29 23:51:18.756 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.8459ms
+2026-03-29 23:51:18.924 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/swagger/v1/swagger.json - null null
+2026-03-29 23:51:18.951 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 26.5374ms
+2026-03-29 23:52:11.142 +03:00 [INF] Application is Building ...
+2026-03-29 23:52:12.051 +03:00 [INF] Now listening on: http://localhost:5212
+2026-03-29 23:52:12.147 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-29 23:52:12.149 +03:00 [INF] Hosting environment: Development
+2026-03-29 23:52:12.150 +03:00 [INF] Content root path: D:\Dot Net Projects\ClinicApplication\ClinicApp.Host
+2026-03-29 23:52:12.978 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/swagger/index.html - null null
+2026-03-29 23:52:13.214 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/swagger/index.html - 200 null text/html;charset=utf-8 248.6345ms
+2026-03-29 23:52:13.256 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-29 23:52:13.271 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/_framework/aspnetcore-browser-refresh.js - 200 16512 application/javascript; charset=utf-8 14.9424ms
+2026-03-29 23:52:13.287 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/_vs/browserLink - null null
+2026-03-29 23:52:13.331 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.1679ms
+2026-03-29 23:52:13.452 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/swagger/v1/swagger.json - null null
+2026-03-29 23:52:13.481 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 29.1438ms
+2026-03-29 23:54:59.858 +03:00 [INF] Application is Building ...
+2026-03-29 23:55:00.939 +03:00 [INF] Now listening on: http://localhost:5212
+2026-03-29 23:55:01.009 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-29 23:55:01.010 +03:00 [INF] Hosting environment: Development
+2026-03-29 23:55:01.011 +03:00 [INF] Content root path: D:\Dot Net Projects\ClinicApplication\ClinicApp.Host
+2026-03-29 23:55:01.641 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/swagger/index.html - null null
+2026-03-29 23:55:01.919 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/swagger/index.html - 200 null text/html;charset=utf-8 299.7108ms
+2026-03-29 23:55:01.977 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-29 23:55:01.997 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/_framework/aspnetcore-browser-refresh.js - 200 16512 application/javascript; charset=utf-8 20.666ms
+2026-03-29 23:55:02.018 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/_vs/browserLink - null null
+2026-03-29 23:55:02.073 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.3761ms
+2026-03-29 23:55:02.203 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/swagger/v1/swagger.json - null null
+2026-03-29 23:55:02.253 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 49.6709ms
+2026-03-29 23:57:55.042 +03:00 [INF] Application is Building ...
+2026-03-29 23:57:56.048 +03:00 [INF] Now listening on: http://localhost:5212
+2026-03-29 23:57:56.122 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-29 23:57:56.123 +03:00 [INF] Hosting environment: Development
+2026-03-29 23:57:56.124 +03:00 [INF] Content root path: D:\Dot Net Projects\ClinicApplication\ClinicApp.Host
+2026-03-29 23:57:57.711 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/swagger/index.html - null null
+2026-03-29 23:57:58.030 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/swagger/index.html - 200 null text/html;charset=utf-8 341.2285ms
+2026-03-29 23:57:58.083 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-29 23:57:58.110 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/_framework/aspnetcore-browser-refresh.js - 200 16512 application/javascript; charset=utf-8 27.1551ms
+2026-03-29 23:57:58.131 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/_vs/browserLink - null null
+2026-03-29 23:57:58.214 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/_vs/browserLink - 200 null text/javascript; charset=UTF-8 82.6954ms
+2026-03-29 23:57:58.356 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5212/swagger/v1/swagger.json - null null
+2026-03-29 23:57:58.404 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5212/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 48.059ms

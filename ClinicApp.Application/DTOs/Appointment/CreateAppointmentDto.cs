@@ -9,9 +9,7 @@ namespace ClinicApp.Application.DTOs.Appointment
         public int PatientId { get; set; }
         public DateTime StartDateTime { get; set; }
         public DateTime EndDateTime { get; set; }
-        
-      [JsonConverter(typeof(JsonStringEnumConverter))]
-        public required AppointmentStatus Status { get; set; }
+       
 
         public string? Notes { get; set; }
     }

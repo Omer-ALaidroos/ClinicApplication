@@ -6,7 +6,6 @@ namespace ClinicApp.Application.DTOs.Appointment
         Pending,
         Scheduled,
         Confirmed,
-        InProgress,
         Completed,
         Cancelled,
         NoShow,

@@ -3,260 +3,80 @@
   "WorkspaceRootPath": "D:\\Dot Net Projects\\ClinicApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\services\\doctorscheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\services\\doctorscheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\interfaces\\idoctorscheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\interfaces\\idoctorscheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.host\\controllers\\doctorschedulescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|solutionrelative:clinicapp.host\\controllers\\doctorschedulescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D378C49-A6D1-4702-B5C2-3F5CB5AB1F2D}|ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.infrastucture\\repositories\\doctorschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D378C49-A6D1-4702-B5C2-3F5CB5AB1F2D}|ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj|solutionrelative:clinicapp.infrastucture\\repositories\\doctorschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\validation\\doctorschedule\\updatedoctorschedulevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\validation\\doctorschedule\\updatedoctorschedulevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\validation\\doctorschedule\\createdoctorschedulevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\validation\\doctorschedule\\createdoctorschedulevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\dtos\\doctorschedule\\updatedoctorscheduledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\dtos\\doctorschedule\\updatedoctorscheduledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\dtos\\doctorschedule\\getdoctorscheduledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\dtos\\doctorschedule\\getdoctorscheduledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\dtos\\doctorschedule\\createdoctorscheduledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\dtos\\doctorschedule\\createdoctorscheduledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A99A53D8-76EF-45F7-86E3-EAFCC182F74A}|ClinicApp.Domain\\ClinicApp.Domain.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.domain\\interfaces\\idoctorschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A99A53D8-76EF-45F7-86E3-EAFCC182F74A}|ClinicApp.Domain\\ClinicApp.Domain.csproj|solutionrelative:clinicapp.domain\\interfaces\\idoctorschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D378C49-A6D1-4702-B5C2-3F5CB5AB1F2D}|ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.infrastucture\\repositories\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D378C49-A6D1-4702-B5C2-3F5CB5AB1F2D}|ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj|solutionrelative:clinicapp.infrastucture\\repositories\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\dependencyinjection\\servicecontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\dependencyinjection\\servicecontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\common\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\common\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A99A53D8-76EF-45F7-86E3-EAFCC182F74A}|ClinicApp.Domain\\ClinicApp.Domain.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.domain\\models\\doctorschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A99A53D8-76EF-45F7-86E3-EAFCC182F74A}|ClinicApp.Domain\\ClinicApp.Domain.csproj|solutionrelative:clinicapp.domain\\models\\doctorschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.host\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|solutionrelative:clinicapp.host\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D378C49-A6D1-4702-B5C2-3F5CB5AB1F2D}|ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.infrastucture\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D378C49-A6D1-4702-B5C2-3F5CB5AB1F2D}|ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj|solutionrelative:clinicapp.infrastucture\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\validation\\patient\\updatepatientvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\validation\\patient\\updatepatientvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\validation\\doctor\\updatedoctorvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\validation\\doctor\\updatedoctorvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\validation\\doctor\\createdoctorvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\validation\\doctor\\createdoctorvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\validation\\authentication\\createuservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\validation\\authentication\\createuservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\validation\\authentication\\updateuservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\validation\\authentication\\updateuservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\dtos\\user\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\dtos\\user\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\dtos\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\dtos\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\validation\\authentication\\validationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\validation\\authentication\\validationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\validation\\authentication\\ivalidatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\validation\\authentication\\ivalidatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D378C49-A6D1-4702-B5C2-3F5CB5AB1F2D}|ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.infrastucture\\dependencyinjection\\servicecontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D378C49-A6D1-4702-B5C2-3F5CB5AB1F2D}|ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj|solutionrelative:clinicapp.infrastucture\\dependencyinjection\\servicecontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|solutionrelative:clinicapp.host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\validation\\patient\\createpatientvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\validation\\patient\\createpatientvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\interfaces\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\interfaces\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A99A53D8-76EF-45F7-86E3-EAFCC182F74A}|ClinicApp.Domain\\ClinicApp.Domain.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.domain\\clinicapp.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A99A53D8-76EF-45F7-86E3-EAFCC182F74A}|ClinicApp.Domain\\ClinicApp.Domain.csproj|solutionrelative:clinicapp.domain\\clinicapp.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\dtos\\doctor\\createdoctordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\dtos\\doctor\\createdoctordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\dtos\\patient\\createpatientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\dtos\\patient\\createpatientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\dtos\\user\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\dtos\\user\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\dtos\\doctor\\updatedoctordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\dtos\\doctor\\updatedoctordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.host\\controllers\\specialtiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|solutionrelative:clinicapp.host\\controllers\\specialtiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\services\\specialtyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\services\\specialtyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D378C49-A6D1-4702-B5C2-3F5CB5AB1F2D}|ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.infrastucture\\repositories\\specialtyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D378C49-A6D1-4702-B5C2-3F5CB5AB1F2D}|ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj|solutionrelative:clinicapp.infrastucture\\repositories\\specialtyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D378C49-A6D1-4702-B5C2-3F5CB5AB1F2D}|ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.infrastucture\\data\\clinicappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D378C49-A6D1-4702-B5C2-3F5CB5AB1F2D}|ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj|solutionrelative:clinicapp.infrastucture\\data\\clinicappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A99A53D8-76EF-45F7-86E3-EAFCC182F74A}|ClinicApp.Domain\\ClinicApp.Domain.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.domain\\interfaces\\ispecialtyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A99A53D8-76EF-45F7-86E3-EAFCC182F74A}|ClinicApp.Domain\\ClinicApp.Domain.csproj|solutionrelative:clinicapp.domain\\interfaces\\ispecialtyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\interfaces\\ispecialtyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\interfaces\\ispecialtyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\dtos\\specialty\\updatespecialtydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\dtos\\specialty\\updatespecialtydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\dtos\\patient\\updatepatientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\dtos\\patient\\updatepatientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.host\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|solutionrelative:clinicapp.host\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.host\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|solutionrelative:clinicapp.host\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.host\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|solutionrelative:clinicapp.host\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.host\\helpers\\routenames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|solutionrelative:clinicapp.host\\helpers\\routenames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D378C49-A6D1-4702-B5C2-3F5CB5AB1F2D}|ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.infrastucture\\dependencyinjection\\servicecontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D378C49-A6D1-4702-B5C2-3F5CB5AB1F2D}|ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj|solutionrelative:clinicapp.infrastucture\\dependencyinjection\\servicecontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D378C49-A6D1-4702-B5C2-3F5CB5AB1F2D}|ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.infrastucture\\repositories\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D378C49-A6D1-4702-B5C2-3F5CB5AB1F2D}|ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj|solutionrelative:clinicapp.infrastucture\\repositories\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A99A53D8-76EF-45F7-86E3-EAFCC182F74A}|ClinicApp.Domain\\ClinicApp.Domain.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A99A53D8-76EF-45F7-86E3-EAFCC182F74A}|ClinicApp.Domain\\ClinicApp.Domain.csproj|solutionrelative:clinicapp.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A99A53D8-76EF-45F7-86E3-EAFCC182F74A}|ClinicApp.Domain\\ClinicApp.Domain.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.domain\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A99A53D8-76EF-45F7-86E3-EAFCC182F74A}|ClinicApp.Domain\\ClinicApp.Domain.csproj|solutionrelative:clinicapp.domain\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\interfaces\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\interfaces\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\clinicapp.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\clinicapp.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0D378C49-A6D1-4702-B5C2-3F5CB5AB1F2D}|ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.infrastucture\\clinicapp.infrastucture.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{0D378C49-A6D1-4702-B5C2-3F5CB5AB1F2D}|ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj|solutionrelative:clinicapp.infrastucture\\clinicapp.infrastucture.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A99A53D8-76EF-45F7-86E3-EAFCC182F74A}|ClinicApp.Domain\\ClinicApp.Domain.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A99A53D8-76EF-45F7-86E3-EAFCC182F74A}|ClinicApp.Domain\\ClinicApp.Domain.csproj|solutionrelative:clinicapp.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A99A53D8-76EF-45F7-86E3-EAFCC182F74A}|ClinicApp.Domain\\ClinicApp.Domain.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.domain\\interfaces\\iappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A99A53D8-76EF-45F7-86E3-EAFCC182F74A}|ClinicApp.Domain\\ClinicApp.Domain.csproj|solutionrelative:clinicapp.domain\\interfaces\\iappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D378C49-A6D1-4702-B5C2-3F5CB5AB1F2D}|ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.infrastucture\\repositories\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D378C49-A6D1-4702-B5C2-3F5CB5AB1F2D}|ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj|solutionrelative:clinicapp.infrastucture\\repositories\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\dependencyinjection\\servicecontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\dependencyinjection\\servicecontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|solutionrelative:clinicapp.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ClinicApp.Application\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.host\\appconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|solutionrelative:clinicapp.host\\appconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ClinicApp.Infrastucture\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.host\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|solutionrelative:clinicapp.host\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Domain\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ClinicApp.Domain\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.host\\logs\\log-20260329.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|solutionrelative:clinicapp.host\\logs\\log-20260329.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D378C49-A6D1-4702-B5C2-3F5CB5AB1F2D}|ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.infrastucture\\services\\serilogloggeradapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D378C49-A6D1-4702-B5C2-3F5CB5AB1F2D}|ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj|solutionrelative:clinicapp.infrastucture\\services\\serilogloggeradapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\interfaces\\logger\\iapplogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\interfaces\\logger\\iapplogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\dtos\\medicalrecord\\createmedicalrecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\dtos\\medicalrecord\\createmedicalrecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\dtos\\appointment\\appointmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\dtos\\appointment\\appointmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.application\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DDA94A-F6D5-4DE0-953F-19D7A7285DE9}|ClinicApp.Application\\ClinicApp.Application.csproj|solutionrelative:clinicapp.application\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.host\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|solutionrelative:clinicapp.host\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.host\\middleware\\requestloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|solutionrelative:clinicapp.host\\middleware\\requestloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.host\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB6B8EAE-869B-4A50-AD2E-291C7410EEA7}|ClinicApp.Host\\ClinicApp.Host.csproj|solutionrelative:clinicapp.host\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D378C49-A6D1-4702-B5C2-3F5CB5AB1F2D}|ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.infrastucture\\repositories\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D378C49-A6D1-4702-B5C2-3F5CB5AB1F2D}|ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj|solutionrelative:clinicapp.infrastucture\\repositories\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99A53D8-76EF-45F7-86E3-EAFCC182F74A}|ClinicApp.Domain\\ClinicApp.Domain.csproj|d:\\dot net projects\\clinicapplication\\clinicapp.domain\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99A53D8-76EF-45F7-86E3-EAFCC182F74A}|ClinicApp.Domain\\ClinicApp.Domain.csproj|solutionrelative:clinicapp.domain\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -266,778 +86,254 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DoctorSchedulesController.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\Controllers\\DoctorSchedulesController.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Host\\Controllers\\DoctorSchedulesController.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\Controllers\\DoctorSchedulesController.cs",
-              "RelativeToolTip": "ClinicApp.Host\\Controllers\\DoctorSchedulesController.cs",
-              "ViewState": "AgIAABgAAACAqZmZmZkBwCkAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T18:04:06.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IDoctorScheduleRepository.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Domain\\Interfaces\\IDoctorScheduleRepository.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Domain\\Interfaces\\IDoctorScheduleRepository.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Domain\\Interfaces\\IDoctorScheduleRepository.cs",
-              "RelativeToolTip": "ClinicApp.Domain\\Interfaces\\IDoctorScheduleRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAIA9wAsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T17:59:21.673Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IDoctorScheduleService.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Interfaces\\IDoctorScheduleService.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\Interfaces\\IDoctorScheduleService.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Interfaces\\IDoctorScheduleService.cs*",
-              "RelativeToolTip": "ClinicApp.Application\\Interfaces\\IDoctorScheduleService.cs*",
-              "ViewState": "AgIAAAgAAAAAAAAAAIAxwA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T17:59:50.071Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DoctorService.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Services\\DoctorService.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\Services\\DoctorService.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Services\\DoctorService.cs",
-              "RelativeToolTip": "ClinicApp.Application\\Services\\DoctorService.cs",
-              "ViewState": "AgIAAD8AAACA1/////8gwHQAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T19:21:50.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DoctorScheduleService.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Services\\DoctorScheduleService.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\Services\\DoctorScheduleService.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Services\\DoctorScheduleService.cs*",
-              "RelativeToolTip": "ClinicApp.Application\\Services\\DoctorScheduleService.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T17:51:49.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DoctorScheduleRepository.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\Repositories\\DoctorScheduleRepository.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Infrastucture\\Repositories\\DoctorScheduleRepository.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\Repositories\\DoctorScheduleRepository.cs",
-              "RelativeToolTip": "ClinicApp.Infrastucture\\Repositories\\DoctorScheduleRepository.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAACMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T17:50:34.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GetDoctorScheduleDto.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\DTOs\\DoctorSchedule\\GetDoctorScheduleDto.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\DTOs\\DoctorSchedule\\GetDoctorScheduleDto.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\DTOs\\DoctorSchedule\\GetDoctorScheduleDto.cs",
-              "RelativeToolTip": "ClinicApp.Application\\DTOs\\DoctorSchedule\\GetDoctorScheduleDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T18:57:24.846Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CreateDoctorScheduleValidator.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Validation\\DoctorSchedule\\CreateDoctorScheduleValidator.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\Validation\\DoctorSchedule\\CreateDoctorScheduleValidator.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Validation\\DoctorSchedule\\CreateDoctorScheduleValidator.cs",
-              "RelativeToolTip": "ClinicApp.Application\\Validation\\DoctorSchedule\\CreateDoctorScheduleValidator.cs",
-              "ViewState": "AgIAAAgAAAAA/v////8ywA0AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T19:08:03.396Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UpdateDoctorScheduleValidator.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Validation\\DoctorSchedule\\UpdateDoctorScheduleValidator.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\Validation\\DoctorSchedule\\UpdateDoctorScheduleValidator.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Validation\\DoctorSchedule\\UpdateDoctorScheduleValidator.cs",
-              "RelativeToolTip": "ClinicApp.Application\\Validation\\DoctorSchedule\\UpdateDoctorScheduleValidator.cs",
-              "ViewState": "AgIAAAgAAADAmJmZmZk+wBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T19:08:09.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UpdateDoctorScheduleDto.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\DTOs\\DoctorSchedule\\UpdateDoctorScheduleDto.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\DTOs\\DoctorSchedule\\UpdateDoctorScheduleDto.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\DTOs\\DoctorSchedule\\UpdateDoctorScheduleDto.cs",
-              "RelativeToolTip": "ClinicApp.Application\\DTOs\\DoctorSchedule\\UpdateDoctorScheduleDto.cs",
-              "ViewState": "AgIAAAMAAACwLTMzMzMLwAYAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T11:37:06.367Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DoctorSchedule.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Domain\\Models\\DoctorSchedule.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Domain\\Models\\DoctorSchedule.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Domain\\Models\\DoctorSchedule.cs",
-              "RelativeToolTip": "ClinicApp.Domain\\Models\\DoctorSchedule.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAEiTPQwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T11:20:27.948Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DoctorRepository.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\Repositories\\DoctorRepository.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Infrastucture\\Repositories\\DoctorRepository.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\Repositories\\DoctorRepository.cs",
-              "RelativeToolTip": "ClinicApp.Infrastucture\\Repositories\\DoctorRepository.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAmwBIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T19:20:48.606Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CreateDoctorScheduleDto.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\DTOs\\DoctorSchedule\\CreateDoctorScheduleDto.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\DTOs\\DoctorSchedule\\CreateDoctorScheduleDto.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\DTOs\\DoctorSchedule\\CreateDoctorScheduleDto.cs",
-              "RelativeToolTip": "ClinicApp.Application\\DTOs\\DoctorSchedule\\CreateDoctorScheduleDto.cs",
-              "ViewState": "AgIAAAQAAABwzMzMzMw1wAcAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T11:36:04.499Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DoctorsController.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\Controllers\\DoctorsController.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Host\\Controllers\\DoctorsController.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\Controllers\\DoctorsController.cs",
-              "RelativeToolTip": "ClinicApp.Host\\Controllers\\DoctorsController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAjwDEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T19:23:42.452Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Common\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\Common\\MappingProfile.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Common\\MappingProfile.cs",
-              "RelativeToolTip": "ClinicApp.Application\\Common\\MappingProfile.cs",
-              "ViewState": "AgIAADMAAADALTMzMzMlwD4AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T10:33:31.078Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "ServiceContainer.cs",
               "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\DependencyInjection\\ServiceContainer.cs",
               "RelativeDocumentMoniker": "ClinicApp.Application\\DependencyInjection\\ServiceContainer.cs",
               "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\DependencyInjection\\ServiceContainer.cs",
               "RelativeToolTip": "ClinicApp.Application\\DependencyInjection\\ServiceContainer.cs",
-              "ViewState": "AgIAABQAAABA/v////8fwBwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAABAZmZmZmY0wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T16:07:38.233Z"
+              "WhenOpened": "2026-03-29T20:56:11.371Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UpdatePatientValidator.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Validation\\Patient\\UpdatePatientValidator.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\Validation\\Patient\\UpdatePatientValidator.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Validation\\Patient\\UpdatePatientValidator.cs",
-              "RelativeToolTip": "ClinicApp.Application\\Validation\\Patient\\UpdatePatientValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ClinicApp.Host\\appsettings.Development.json",
+              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\appsettings.Development.json",
+              "RelativeToolTip": "ClinicApp.Host\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-29T20:51:58.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "log-20260329.txt",
+              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\logs\\log-20260329.txt",
+              "RelativeDocumentMoniker": "ClinicApp.Host\\logs\\log-20260329.txt",
+              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\logs\\log-20260329.txt",
+              "RelativeToolTip": "ClinicApp.Host\\logs\\log-20260329.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-03-29T20:50:32.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SerilogLoggerAdapter.cs",
+              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\Services\\SerilogLoggerAdapter.cs",
+              "RelativeDocumentMoniker": "ClinicApp.Infrastucture\\Services\\SerilogLoggerAdapter.cs",
+              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\Services\\SerilogLoggerAdapter.cs",
+              "RelativeToolTip": "ClinicApp.Infrastucture\\Services\\SerilogLoggerAdapter.cs",
+              "ViewState": "AgIAAAgAAAAAMDMzMzMbwBMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T20:28:35.826Z"
+              "WhenOpened": "2026-03-29T20:39:10.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IAppLogger.cs",
+              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Interfaces\\Logger\\IAppLogger.cs",
+              "RelativeDocumentMoniker": "ClinicApp.Application\\Interfaces\\Logger\\IAppLogger.cs",
+              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Interfaces\\Logger\\IAppLogger.cs",
+              "RelativeToolTip": "ClinicApp.Application\\Interfaces\\Logger\\IAppLogger.cs",
+              "ViewState": "AgIAAAAAAADg//////9AwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T20:38:18.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClinicApp.Infrastucture.csproj",
+              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj",
+              "RelativeDocumentMoniker": "ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj",
+              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj*",
+              "RelativeToolTip": "ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-29T20:32:31.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateMedicalRecordDto.cs",
+              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\DTOs\\MedicalRecord\\CreateMedicalRecordDto.cs",
+              "RelativeDocumentMoniker": "ClinicApp.Application\\DTOs\\MedicalRecord\\CreateMedicalRecordDto.cs",
+              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\DTOs\\MedicalRecord\\CreateMedicalRecordDto.cs",
+              "RelativeToolTip": "ClinicApp.Application\\DTOs\\MedicalRecord\\CreateMedicalRecordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T17:18:07.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DoctorService.cs",
+              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Services\\DoctorService.cs",
+              "RelativeDocumentMoniker": "ClinicApp.Application\\Services\\DoctorService.cs",
+              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Services\\DoctorService.cs",
+              "RelativeToolTip": "ClinicApp.Application\\Services\\DoctorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T15:49:07.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceContainer.cs",
+              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\DependencyInjection\\ServiceContainer.cs",
+              "RelativeDocumentMoniker": "ClinicApp.Infrastucture\\DependencyInjection\\ServiceContainer.cs",
+              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\DependencyInjection\\ServiceContainer.cs*",
+              "RelativeToolTip": "ClinicApp.Infrastucture\\DependencyInjection\\ServiceContainer.cs*",
+              "ViewState": "AgIAACAAAAAAAAAAAAB7PUEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T16:22:44.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\appsettings.json",
+              "RelativeDocumentMoniker": "ClinicApp.Host\\appsettings.json",
+              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\appsettings.json*",
+              "RelativeToolTip": "ClinicApp.Host\\appsettings.json*",
+              "ViewState": "AgIAAAAAAADcMjMzMzMbwAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-12T16:22:22.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppConfig.json",
+              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\AppConfig.json",
+              "RelativeDocumentMoniker": "ClinicApp.Host\\AppConfig.json",
+              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\AppConfig.json",
+              "RelativeToolTip": "ClinicApp.Host\\AppConfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-12T16:21:38.226Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Infrastucture\\Repositories\\UserRepository.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "ClinicApp.Infrastucture\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAMwBwAAAAMAAAAAAAAAA==",
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "ClinicApp.Host\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "ClinicApp.Host\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T15:49:28.362Z"
+              "WhenOpened": "2026-03-07T00:25:16.525Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UpdateDoctorValidator.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Validation\\Doctor\\UpdateDoctorValidator.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\Validation\\Doctor\\UpdateDoctorValidator.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Validation\\Doctor\\UpdateDoctorValidator.cs",
-              "RelativeToolTip": "ClinicApp.Application\\Validation\\Doctor\\UpdateDoctorValidator.cs",
-              "ViewState": "AgIAAA0AAADAlpmZmZklwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T20:17:34.884Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "UpdateUserValidator.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Validation\\Authentication\\UpdateUserValidator.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\Validation\\Authentication\\UpdateUserValidator.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Validation\\Authentication\\UpdateUserValidator.cs",
-              "RelativeToolTip": "ClinicApp.Application\\Validation\\Authentication\\UpdateUserValidator.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAcwBcAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T20:17:09.41Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "UpdateUserDto.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\DTOs\\User\\UpdateUserDto.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\DTOs\\User\\UpdateUserDto.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\DTOs\\User\\UpdateUserDto.cs",
-              "RelativeToolTip": "ClinicApp.Application\\DTOs\\User\\UpdateUserDto.cs",
-              "ViewState": "AgIAAAMAAACAmZmZmZkhwAkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T20:26:14.673Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\Services\\UserService.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Services\\UserService.cs",
-              "RelativeToolTip": "ClinicApp.Application\\Services\\UserService.cs",
-              "ViewState": "AgIAAGwAAAAAvMzMzAwqwGsAAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T14:27:51.572Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "CreateDoctorDto.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\DTOs\\Doctor\\CreateDoctorDto.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\DTOs\\Doctor\\CreateDoctorDto.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\DTOs\\Doctor\\CreateDoctorDto.cs",
-              "RelativeToolTip": "ClinicApp.Application\\DTOs\\Doctor\\CreateDoctorDto.cs",
-              "ViewState": "AgIAAAQAAABgmJmZmZkhwAsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T19:43:05.738Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "CreateUserDto.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\DTOs\\User\\CreateUserDto.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\DTOs\\User\\CreateUserDto.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\DTOs\\User\\CreateUserDto.cs",
-              "RelativeToolTip": "ClinicApp.Application\\DTOs\\User\\CreateUserDto.cs",
-              "ViewState": "AgIAAAIAAADuZWZmZmY0wAgAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T20:00:58.368Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CreateUserValidator.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Validation\\Authentication\\CreateUserValidator.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\Validation\\Authentication\\CreateUserValidator.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Validation\\Authentication\\CreateUserValidator.cs",
-              "RelativeToolTip": "ClinicApp.Application\\Validation\\Authentication\\CreateUserValidator.cs",
-              "ViewState": "AgIAABEAAABAjJmZmZkdwBAAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T19:59:21.869Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CreateDoctorValidator.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Validation\\Doctor\\CreateDoctorValidator.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\Validation\\Doctor\\CreateDoctorValidator.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Validation\\Doctor\\CreateDoctorValidator.cs",
-              "RelativeToolTip": "ClinicApp.Application\\Validation\\Doctor\\CreateDoctorValidator.cs",
-              "ViewState": "AgIAAA4AAABAmJmZmZkMwBsAAABoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T13:33:52.197Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IValidatorService.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Validation\\Authentication\\IValidatorService.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\Validation\\Authentication\\IValidatorService.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Validation\\Authentication\\IValidatorService.cs",
-              "RelativeToolTip": "ClinicApp.Application\\Validation\\Authentication\\IValidatorService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T20:03:16.247Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ServiceResponse.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\DTOs\\ServiceResponse.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\DTOs\\ServiceResponse.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\DTOs\\ServiceResponse.cs",
-              "RelativeToolTip": "ClinicApp.Application\\DTOs\\ServiceResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T13:35:56.674Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "CreatePatientValidator.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Validation\\Patient\\CreatePatientValidator.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\Validation\\Patient\\CreatePatientValidator.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Validation\\Patient\\CreatePatientValidator.cs",
-              "RelativeToolTip": "ClinicApp.Application\\Validation\\Patient\\CreatePatientValidator.cs",
-              "ViewState": "AgIAAAQAAAD4IzMzMzMbwA0AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T08:39:02.463Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ValidationService.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Validation\\Authentication\\ValidationService.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\Validation\\Authentication\\ValidationService.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Validation\\Authentication\\ValidationService.cs",
-              "RelativeToolTip": "ClinicApp.Application\\Validation\\Authentication\\ValidationService.cs",
-              "ViewState": "AgIAABAAAACAvszMzMwFwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T20:04:48.354Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "PatientService.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Services\\PatientService.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\Services\\PatientService.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Services\\PatientService.cs",
-              "RelativeToolTip": "ClinicApp.Application\\Services\\PatientService.cs",
-              "ViewState": "AgIAAAoAAABAmJmZmRkmwDoAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T11:03:40.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\Program.cs",
               "RelativeDocumentMoniker": "ClinicApp.Host\\Program.cs",
               "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\Program.cs",
               "RelativeToolTip": "ClinicApp.Host\\Program.cs",
-              "ViewState": "AgIAABIAAACgyczMzMwlwBQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAACDPQsAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T15:55:58.606Z"
+              "WhenOpened": "2026-03-07T00:17:11.149Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "IDoctorService.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Interfaces\\IDoctorService.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\Interfaces\\IDoctorService.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Interfaces\\IDoctorService.cs",
-              "RelativeToolTip": "ClinicApp.Application\\Interfaces\\IDoctorService.cs",
-              "ViewState": "AgIAAAYAAADAMDMzMzMbwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "RequestLoggingMiddleware.cs",
+              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\Middleware\\RequestLoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "ClinicApp.Host\\Middleware\\RequestLoggingMiddleware.cs",
+              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\Middleware\\RequestLoggingMiddleware.cs",
+              "RelativeToolTip": "ClinicApp.Host\\Middleware\\RequestLoggingMiddleware.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T13:42:31.875Z"
+              "WhenOpened": "2026-03-07T00:14:24.772Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ClinicApp.Domain.csproj",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Domain\\ClinicApp.Domain.csproj",
-              "RelativeDocumentMoniker": "ClinicApp.Domain\\ClinicApp.Domain.csproj",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Domain\\ClinicApp.Domain.csproj",
-              "RelativeToolTip": "ClinicApp.Domain\\ClinicApp.Domain.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-01T15:52:30.21Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "CreatePatientDto.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\DTOs\\Patient\\CreatePatientDto.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\DTOs\\Patient\\CreatePatientDto.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\DTOs\\Patient\\CreatePatientDto.cs",
-              "RelativeToolTip": "ClinicApp.Application\\DTOs\\Patient\\CreatePatientDto.cs",
-              "ViewState": "AgIAAAgAAAAw/v////8ywAsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "AppointmentStatus.cs",
+              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\DTOs\\Appointment\\AppointmentStatus.cs",
+              "RelativeDocumentMoniker": "ClinicApp.Application\\DTOs\\Appointment\\AppointmentStatus.cs",
+              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\DTOs\\Appointment\\AppointmentStatus.cs",
+              "RelativeToolTip": "ClinicApp.Application\\DTOs\\Appointment\\AppointmentStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:16:47.745Z"
+              "WhenOpened": "2026-02-17T08:31:57.216Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "SpecialtyService.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Services\\SpecialtyService.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\Services\\SpecialtyService.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Services\\SpecialtyService.cs",
-              "RelativeToolTip": "ClinicApp.Application\\Services\\SpecialtyService.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAnwFoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T14:03:40.677Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "ISpecialtyService.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Interfaces\\ISpecialtyService.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\Interfaces\\ISpecialtyService.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Interfaces\\ISpecialtyService.cs",
-              "RelativeToolTip": "ClinicApp.Application\\Interfaces\\ISpecialtyService.cs",
-              "ViewState": "AgIAAAUAAADgMTMzMzMrwA0AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T14:11:49.02Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "SpecialtiesController.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\Controllers\\SpecialtiesController.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Host\\Controllers\\SpecialtiesController.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\Controllers\\SpecialtiesController.cs",
-              "RelativeToolTip": "ClinicApp.Host\\Controllers\\SpecialtiesController.cs",
-              "ViewState": "AgIAAC8AAACgMTMzMzMnwDQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T14:13:31.293Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "UpdateSpecialtyDto.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\DTOs\\Specialty\\UpdateSpecialtyDto.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\DTOs\\Specialty\\UpdateSpecialtyDto.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\DTOs\\Specialty\\UpdateSpecialtyDto.cs",
-              "RelativeToolTip": "ClinicApp.Application\\DTOs\\Specialty\\UpdateSpecialtyDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T18:44:39.188Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "UpdateDoctorDto.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\DTOs\\Doctor\\UpdateDoctorDto.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\DTOs\\Doctor\\UpdateDoctorDto.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\DTOs\\Doctor\\UpdateDoctorDto.cs",
-              "RelativeToolTip": "ClinicApp.Application\\DTOs\\Doctor\\UpdateDoctorDto.cs",
-              "ViewState": "AgIAAAMAAAAgZmZmZmYkwAQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T19:42:55.451Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "SpecialtyRepository.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\Repositories\\SpecialtyRepository.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Infrastucture\\Repositories\\SpecialtyRepository.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\Repositories\\SpecialtyRepository.cs",
-              "RelativeToolTip": "ClinicApp.Infrastucture\\Repositories\\SpecialtyRepository.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAjwDcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T18:51:23.468Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "AppointmentsController.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\Controllers\\AppointmentsController.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Host\\Controllers\\AppointmentsController.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\Controllers\\AppointmentsController.cs",
-              "RelativeToolTip": "ClinicApp.Host\\Controllers\\AppointmentsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T14:36:39.553Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "ClinicAppContext.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\Data\\ClinicAppContext.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Infrastucture\\Data\\ClinicAppContext.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\Data\\ClinicAppContext.cs",
-              "RelativeToolTip": "ClinicApp.Infrastucture\\Data\\ClinicAppContext.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAIBQwCIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-25T15:46:27.923Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "ISpecialtyRepository.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Domain\\Interfaces\\ISpecialtyRepository.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Domain\\Interfaces\\ISpecialtyRepository.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Domain\\Interfaces\\ISpecialtyRepository.cs",
-              "RelativeToolTip": "ClinicApp.Domain\\Interfaces\\ISpecialtyRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAIA1wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T18:50:50.729Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "PatientRepository.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\Repositories\\PatientRepository.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Infrastucture\\Repositories\\PatientRepository.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\Repositories\\PatientRepository.cs",
-              "RelativeToolTip": "ClinicApp.Infrastucture\\Repositories\\PatientRepository.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAIBJwBMAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T15:52:07.964Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "PatientsController.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\Controllers\\PatientsController.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Host\\Controllers\\PatientsController.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\Controllers\\PatientsController.cs",
-              "RelativeToolTip": "ClinicApp.Host\\Controllers\\PatientsController.cs",
-              "ViewState": "AgIAACAAAADQ//////8nwCUAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T11:09:54.901Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "UpdatePatientDto.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\DTOs\\Patient\\UpdatePatientDto.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\DTOs\\Patient\\UpdatePatientDto.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\DTOs\\Patient\\UpdatePatientDto.cs",
-              "RelativeToolTip": "ClinicApp.Application\\DTOs\\Patient\\UpdatePatientDto.cs",
-              "ViewState": "AgIAAAYAAABAmJmZmZkhwAYAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:22:31.727Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "RouteNames.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\Helpers\\RouteNames.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Host\\Helpers\\RouteNames.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\Helpers\\RouteNames.cs",
-              "RelativeToolTip": "ClinicApp.Host\\Helpers\\RouteNames.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAswBsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T14:21:37.707Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Host\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "ClinicApp.Host\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAACcAAACAl5mZmRkdwDIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T10:44:00.344Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "ServiceContainer.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\DependencyInjection\\ServiceContainer.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Infrastucture\\DependencyInjection\\ServiceContainer.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\DependencyInjection\\ServiceContainer.cs",
-              "RelativeToolTip": "ClinicApp.Infrastucture\\DependencyInjection\\ServiceContainer.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAvwBoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T15:57:08.841Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "Patient.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Domain\\Models\\Patient.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Domain\\Models\\Patient.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Domain\\Models\\Patient.cs",
-              "RelativeToolTip": "ClinicApp.Domain\\Models\\Patient.cs",
-              "ViewState": "AgIAAA0AAAAg/f////82wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:54:05.269Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Domain\\Models\\User.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Domain\\Models\\User.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Domain\\Models\\User.cs",
-              "RelativeToolTip": "ClinicApp.Domain\\Models\\User.cs",
-              "ViewState": "AgIAAA0AAABQZGZmZmY6wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:53:06.824Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\Interfaces\\IUserService.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "ClinicApp.Application\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAUAAADgMTMzMzMrwA4AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T10:56:26.586Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "IPatientService.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Interfaces\\IPatientService.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\Interfaces\\IPatientService.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Interfaces\\IPatientService.cs",
-              "RelativeToolTip": "ClinicApp.Application\\Interfaces\\IPatientService.cs",
-              "ViewState": "AgIAAAIAAABAMjMzMzMbwA0AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T11:03:04.813Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Domain\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Domain\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Domain\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "ClinicApp.Domain\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T15:53:46.363Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "IAppointmentRepository.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Domain\\Interfaces\\IAppointmentRepository.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Domain\\Interfaces\\IAppointmentRepository.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Domain\\Interfaces\\IAppointmentRepository.cs",
-              "RelativeToolTip": "ClinicApp.Domain\\Interfaces\\IAppointmentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T15:53:44.764Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "ClinicApp.Application.csproj",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\ClinicApp.Application.csproj",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\ClinicApp.Application.csproj",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\ClinicApp.Application.csproj",
-              "RelativeToolTip": "ClinicApp.Application\\ClinicApp.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-01T16:07:29.32Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "ClinicApp.Infrastucture.csproj",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj",
-              "RelativeDocumentMoniker": "ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj",
-              "RelativeToolTip": "ClinicApp.Infrastucture\\ClinicApp.Infrastucture.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-25T15:32:24.257Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 12,
               "Title": "AppointmentService.cs",
               "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Services\\AppointmentService.cs",
               "RelativeDocumentMoniker": "ClinicApp.Application\\Services\\AppointmentService.cs",
               "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Services\\AppointmentService.cs",
               "RelativeToolTip": "ClinicApp.Application\\Services\\AppointmentService.cs",
-              "ViewState": "AgIAAEUAAAAAFAAAAAAewEcAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAJYAAAAAAAAAAIBJwCUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T13:32:42.803Z"
+              "WhenOpened": "2026-02-17T08:25:45.212Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 14,
+              "Title": "AppointmentsController.cs",
+              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\Controllers\\AppointmentsController.cs",
+              "RelativeDocumentMoniker": "ClinicApp.Host\\Controllers\\AppointmentsController.cs",
+              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\Controllers\\AppointmentsController.cs",
+              "RelativeToolTip": "ClinicApp.Host\\Controllers\\AppointmentsController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwD0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T08:21:45.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "AppointmentRepository.cs",
               "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\Repositories\\AppointmentRepository.cs",
               "RelativeDocumentMoniker": "ClinicApp.Infrastucture\\Repositories\\AppointmentRepository.cs",
               "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\Repositories\\AppointmentRepository.cs",
               "RelativeToolTip": "ClinicApp.Infrastucture\\Repositories\\AppointmentRepository.cs",
-              "ViewState": "AgIAACwAAAAAkMzMzMz8vxUAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAlwDMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T13:31:39.258Z"
+              "WhenOpened": "2026-02-17T08:21:45.106Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\appsettings.json",
-              "RelativeDocumentMoniker": "ClinicApp.Host\\appsettings.json",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Host\\appsettings.json",
-              "RelativeToolTip": "ClinicApp.Host\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-25T15:38:18.053Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Class1.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Application\\Class1.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Application\\Class1.cs",
-              "RelativeToolTip": "ClinicApp.Application\\Class1.cs",
+              "DocumentIndex": 18,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Domain\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "ClinicApp.Domain\\Models\\Appointment.cs",
+              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Domain\\Models\\Appointment.cs",
+              "RelativeToolTip": "ClinicApp.Domain\\Models\\Appointment.cs",
+              "ViewState": "AgIAADcAAAAA8DIzMzPTvzYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-25T15:23:58.678Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Domain\\Class1.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Domain\\Class1.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Domain\\Class1.cs",
-              "RelativeToolTip": "ClinicApp.Domain\\Class1.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-25T15:23:07.586Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\Class1.cs",
-              "RelativeDocumentMoniker": "ClinicApp.Infrastucture\\Class1.cs",
-              "ToolTip": "D:\\Dot Net Projects\\ClinicApplication\\ClinicApp.Infrastucture\\Class1.cs",
-              "RelativeToolTip": "ClinicApp.Infrastucture\\Class1.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-25T15:21:54.336Z"
+              "WhenOpened": "2026-02-17T08:20:36.654Z",
+              "EditorCaption": ""
             }
           ]
         }

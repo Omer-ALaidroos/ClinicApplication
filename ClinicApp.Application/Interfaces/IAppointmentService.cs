@@ -10,5 +10,11 @@ namespace ClinicApp.Application.Interfaces
         Task<GetAppointmentDto> CreateAppointmentAsync(CreateAppointmentDto appointmentDto);
         Task UpdateAppointmentAsync(int id, UpdateAppointmentDto appointmentDto);
         Task CancelAppointmentAsync(int id);
+        Task ConfirmAppointmentAsync(int id);
+        Task CompleteAppointmentAsync(int id);
+        Task MarkNoShowAsync(int id);
+
+        // New: get available appointment slots for a doctor for the week starting at weekStart (weekStart per stored-proc rules)
+        Task<IEnumerable<GetAvailableSlotDto>> GetDoctorAvailableSlotsWeeklyAsync(int doctorId, DateTime weekStart);
     }
 }

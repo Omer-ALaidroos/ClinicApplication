@@ -1,0 +1,7 @@
+﻿namespace ClinicApp.Host.Middleware
+{
+    public class ExceptionMiddleware
+    {
+  
+    }
+}

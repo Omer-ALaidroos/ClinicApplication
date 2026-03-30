@@ -17,3 +17,4 @@ D:\Dot Net Projects\ClinicApplication\ClinicApp.Infrastucture\obj\Debug\net8.0\r
 D:\Dot Net Projects\ClinicApplication\ClinicApp.Infrastucture\obj\Debug\net8.0\ClinicApp.Infrastucture.pdb
 D:\Dot Net Projects\ClinicApplication\ClinicApp.Infrastucture\obj\Debug\net8.0\ClinicApp.Infrastucture.genruntimeconfig.cache
 D:\Dot Net Projects\ClinicApplication\ClinicApp.Infrastucture\obj\Debug\net8.0\ref\ClinicApp.Infrastucture.dll
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Infrastucture\obj\Debug\net8.0\ClinicApp.Infrastucture.sourcelink.json

@@ -15,4 +15,8 @@
     <ProjectReference Include="..\ClinicApp.Infrastucture\ClinicApp.Infrastucture.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Filters\" />
+  </ItemGroup>
+
 </Project>

@@ -90,3 +90,16 @@ D:\Dot Net Projects\ClinicApplication\ClinicApp.Host\obj\Debug\net8.0\ref\Clinic
 D:\Dot Net Projects\ClinicApplication\ClinicApp.Host\bin\Debug\net8.0\FluentValidation.dll
 D:\Dot Net Projects\ClinicApplication\ClinicApp.Host\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 D:\Dot Net Projects\ClinicApplication\ClinicApp.Host\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Host\bin\Debug\net8.0\AppConfig.json
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Host\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Host\bin\Debug\net8.0\Serilog.dll
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Host\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Host\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Host\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Host\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Host\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Host\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Host\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Host\bin\Debug\net8.0\Serilog.Sinks.File.dll
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Host\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Dot Net Projects\ClinicApplication\ClinicApp.Host\obj\Debug\net8.0\ClinicApp.Host.sourcelink.json
